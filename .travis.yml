@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: HKEr3O7wz8ldYtKtikT/wxJ2e89aeMR/V/w0G3WAxMyRqW+K+DEienhdAn18gjUE/QVWhCvCN865avPEL8CQRNuCSha/MMbOmzNPUv2kKx0A7GzA91meP4K7NQL/4Wk0JjJB8n5A+YxHOIvwU0X/CagJ3Zer/OUHcy2v6Jlu0CAaksNc0REaKNWj4XBRTIgotZ34o5OfPo8GmhvsgkGapW/ml/8tLGG85Txz3jPwq01MH6xDrN+Pe8F9gfkS8e3GxV5Wl4Fe/JNhFx2ik0a1X0gBwgcqEarmxbYtUbsWTXcd9OXR0DnVZfhOvd8nQ4JseCTKDMuEO77beTlQoNqgLQarKqJY4d34PnGYoPy+CW99RkcbSTTmWCTUjc9zDxkl8SO+JnHRvDRsei0BiKkBzEmJpCigKTNoIkhrE4ZXxnUpDoC01YQZzIC+51n39TMhjXu3TdGX5uM3bhsigCgs0qEh5dqsP6TdnJV+NPFS0g5uBRghmMd49oAQGM2/125PTHgmcylp5g5UAmGyWeGtxhK9uLt6rbbntK1gjnceGTk468COXaRxsEqFPyvLzN5Qhn/UAAXcPUn3blUxCkIiUjlCDDYaJpJcPrbEqzo5x0SN9puV0Mlj65BaC4tFOciLw2Jwx2uvO1wpshorX5ESinN7D3snfM/lFv/4opBVaA8=
+  app: lit-savannah-70415
+  on:
+    repo: MollyJeanB/node-shopping-list-integration-tests
